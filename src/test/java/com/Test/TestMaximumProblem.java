@@ -41,4 +41,20 @@ public class TestMaximumProblem {
         Double maximumFloat=maximumProblem.MaximumProblemFloat(3.1,6.0,7.5);
         Assert.assertEquals(7.5,maximumFloat,0);
     }
+
+    @Test
+    public void inGivenThree_String_FirstString_IsMaximum() {
+        String maximumString=maximumProblem.MaximumProblemString("Peach","Apple","Banana");
+        Assert.assertEquals("Peach",maximumString);
+    }
+    @Test
+    public void inGivenThree_String_SecondString_IsMaximum() {
+        String maximumString=maximumProblem.MaximumProblemString("Apple","Peach","Banana");
+        Assert.assertEquals("Peach",maximumString);
+    }
+    @Test
+    public void inGivenThree_String_ThirdString_IsMaximum() {
+        String maximumString=maximumProblem.MaximumProblemString("Banana","Apple","Peach");
+        Assert.assertEquals("Peach",maximumString);
+    }
 }

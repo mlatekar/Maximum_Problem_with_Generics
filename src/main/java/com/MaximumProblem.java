@@ -27,4 +27,15 @@ public class MaximumProblem {
         }
         return maxFloat;
     }
+
+    public String MaximumProblemString(String p,String q,String r) {
+        String maxString = p;
+        if (q.compareTo(maxString) > 0){
+            maxString=q;
+        }
+        if (r.compareTo(maxString)>0){
+            maxString=r;
+        }
+        return maxString;
+    }
 }
