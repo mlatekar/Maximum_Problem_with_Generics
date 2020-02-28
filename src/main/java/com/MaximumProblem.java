@@ -16,4 +16,15 @@ public class MaximumProblem {
         }
         return max;
     }
+
+    public Double MaximumProblemFloat(Double x, Double y, Double z) {
+        Double maxFloat = x;
+        if (y.compareTo(maxFloat) > 0){
+            maxFloat=y;
+        }
+        if (z.compareTo(maxFloat)>0){
+            maxFloat=z;
+        }
+        return maxFloat;
+    }
 }
