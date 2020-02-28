@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Test.TestMaximumProblem" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-28T10:57:52" hostname="admin1-Lenovo-Product" time="0.001">
+  <properties/>
+  <testcase name="inGivenThree_Integers_ThirdInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
