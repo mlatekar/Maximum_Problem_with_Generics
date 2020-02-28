@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Test.TestMaximumProblem" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-28T13:39:50" hostname="admin1-Lenovo-Product" time="0.004">
+<testsuite name="com.Test.TestMaximumProblem" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-28T14:17:16" hostname="admin1-Lenovo-Product" time="0.003">
   <properties/>
   <testcase name="inGivenThree_Float_FirstFloat_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
   <testcase name="inGivenThree_Integers_SecondInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
   <testcase name="inGivenThree_String_SecondString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
   <testcase name="inGivenThree_String_ThirdString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
   <testcase name="inGivenThree_Float_SecondFloat_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
-  <testcase name="inGivenThree_String_FirstString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
+  <testcase name="inGivenThree_String_FirstString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
   <testcase name="inGivenThree_Float_ThirdFloat_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
   <testcase name="inGivenThree_Integers_FirstInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
   <testcase name="inGivenThree_Integers_ThirdInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>

@@ -6,55 +6,55 @@ import org.junit.Test;
 
 public class TestMaximumProblem {
 
-    MaximumProblem maximumProblem=new MaximumProblem();
 
     @Test
     public void inGivenThree_Integers_FirstInteger_IsMaximum() {
-        int maximum= maximumProblem.MaximumProblem(22,18,12);
-        Assert.assertEquals(22,maximum);
+        MaximumProblem maximumProblem=new MaximumProblem(22,18,12);
+        Assert.assertEquals(22,maximumProblem.getMaximumProblem());
     }
 
     @Test
     public void inGivenThree_Integers_SecondInteger_IsMaximum() {
-        int maximum=maximumProblem.MaximumProblem(10,30,25);
-        Assert.assertEquals(30,maximum);
+        MaximumProblem maximumProblem=new MaximumProblem(2,18,1);
+        Assert.assertEquals(18,maximumProblem.getMaximumProblem());
     }
 
     @Test
     public void inGivenThree_Integers_ThirdInteger_IsMaximum() {
-        int maximum=maximumProblem.MaximumProblem(20,40,55);
-        Assert.assertEquals(55,maximum);
+        MaximumProblem maximumProblem=new MaximumProblem(4,8,12);
+
+        Assert.assertEquals(12,maximumProblem.getMaximumProblem());
     }
 
     @Test
     public void inGivenThree_Float_FirstFloat_IsMaximum() {
-        Double maximumFloat=maximumProblem.MaximumProblem(2.1,0.5,1.9);
-        Assert.assertEquals(2.1,maximumFloat,0);
+        MaximumProblem maximumProblem=new MaximumProblem(2.2,1.0,0.2);
+        Assert.assertEquals(2.2,maximumProblem.getMaximumProblem());
     }
     @Test
     public void inGivenThree_Float_SecondFloat_IsMaximum() {
-        Double maximumFloat=maximumProblem.MaximumProblem(5.5,9.5,4.2);
-        Assert.assertEquals(9.5,maximumFloat,0);
+        MaximumProblem maximumProblem=new MaximumProblem(3.2,8.9,1.2);
+        Assert.assertEquals(8.9,maximumProblem.getMaximumProblem());
     }
     @Test
     public void inGivenThree_Float_ThirdFloat_IsMaximum() {
-        Double maximumFloat=maximumProblem.MaximumProblem(3.1,6.0,7.5);
-        Assert.assertEquals(7.5,maximumFloat,0);
+        MaximumProblem maximumProblem=new MaximumProblem(5.5,1.8,9.5);
+        Assert.assertEquals(9.5,maximumProblem.getMaximumProblem());
     }
 
     @Test
     public void inGivenThree_String_FirstString_IsMaximum() {
-        String maximumString=maximumProblem.MaximumProblem("Peach","Apple","Banana");
-        Assert.assertEquals("Peach",maximumString);
+        MaximumProblem maximumProblem=new MaximumProblem("Peach","Apple","Banana");
+        Assert.assertEquals("Peach",maximumProblem.getMaximumProblem());
     }
     @Test
     public void inGivenThree_String_SecondString_IsMaximum() {
-        String maximumString=maximumProblem.MaximumProblem("Apple","Peach","Banana");
-        Assert.assertEquals("Peach",maximumString);
+        MaximumProblem maximumProblem=new MaximumProblem("Banana","Peach","Apple");
+        Assert.assertEquals("Peach",maximumProblem.getMaximumProblem());
     }
     @Test
     public void inGivenThree_String_ThirdString_IsMaximum() {
-        String maximumString=maximumProblem.MaximumProblem("Banana","Apple","Peach");
-        Assert.assertEquals("Peach",maximumString);
+        MaximumProblem maximumProblem=new MaximumProblem("Apple","Banana","Peach");
+        Assert.assertEquals("Peach",maximumProblem.getMaximumProblem());
     }
 }
