@@ -57,4 +57,18 @@ public class TestMaximumProblem {
         MaximumProblem maximumProblem=new MaximumProblem("Apple","Banana","Peach");
         Assert.assertEquals("Peach",maximumProblem.getMaximumProblem());
     }
+
+
+    @Test
+    public void inGiven_TakingMoreParameter_OfInteger_And_ReturnMaximum() {
+        Assert.assertSame( 96,MaximumProblem.getMaximumProblem(3,65,85,96,86));
+    }
+    @Test
+    public void inGiven_TakingMoreParameter_OfFloat_And_ReturnMaximum() {
+        Assert.assertEquals(9.6f,MaximumProblem.getMaximumProblem(3.2f,6.5f,6.8f,8.5f,9.6f,8.6f),0.0f);
+    }
+    @Test
+    public void inGiven_TakingMoreParameter_OfString_And_ReturnMaximum() {
+        Assert.assertEquals("Peach",MaximumProblem.getMaximumProblem("Banana","JackFruit","Mango","Peach","Apple"));
+    }
 }
