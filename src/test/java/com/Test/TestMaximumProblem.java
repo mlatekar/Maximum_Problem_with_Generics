@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TestMaximumProblem {
 
-
+    //Test cases for Maximum Integer
     @Test
     public void inGivenThree_Integers_FirstInteger_IsMaximum() {
         MaximumProblem maximumProblem=new MaximumProblem(22,18,12);
@@ -22,10 +22,10 @@ public class TestMaximumProblem {
     @Test
     public void inGivenThree_Integers_ThirdInteger_IsMaximum() {
         MaximumProblem maximumProblem=new MaximumProblem(4,8,12);
-
         Assert.assertEquals(12,maximumProblem.getMaximumProblem());
     }
 
+    //Test cases for Maximum Float
     @Test
     public void inGivenThree_Float_FirstFloat_IsMaximum() {
         MaximumProblem maximumProblem=new MaximumProblem(2.2,1.0,0.2);
@@ -42,6 +42,7 @@ public class TestMaximumProblem {
         Assert.assertEquals(9.5,maximumProblem.getMaximumProblem());
     }
 
+    //Test cases for Maximum String checking With ASCII value of String
     @Test
     public void inGivenThree_String_FirstString_IsMaximum() {
         MaximumProblem maximumProblem=new MaximumProblem("Peach","Apple","Banana");
@@ -58,15 +59,19 @@ public class TestMaximumProblem {
         Assert.assertEquals("Peach",maximumProblem.getMaximumProblem());
     }
 
-
+    //Test cases for Maximum Integer taking more than three Parameter
     @Test
     public void inGiven_TakingMoreParameter_OfInteger_And_ReturnMaximum() {
         Assert.assertSame( 96,MaximumProblem.getMaximumProblem(3,65,85,96,86));
     }
+
+    //Test cases for Maximum Float taking more than three Parameter
     @Test
     public void inGiven_TakingMoreParameter_OfFloat_And_ReturnMaximum() {
         Assert.assertEquals(9.6f,MaximumProblem.getMaximumProblem(3.2f,6.5f,6.8f,8.5f,9.6f,8.6f),0.0f);
     }
+
+    //Test cases for Maximum String taking more than three Parameter check with ASCII value of String
     @Test
     public void inGiven_TakingMoreParameter_OfString_And_ReturnMaximum() {
         Assert.assertEquals("Peach",MaximumProblem.getMaximumProblem("Banana","JackFruit","Mango","Peach","Apple"));

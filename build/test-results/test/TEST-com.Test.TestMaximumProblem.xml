@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Test.TestMaximumProblem" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-29T06:04:03" hostname="admin1-Lenovo-Product" time="0.001">
+<testsuite name="com.Test.TestMaximumProblem" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-29T06:49:12" hostname="admin1-Lenovo-Product" time="0.022">
   <properties/>
-  <testcase name="inGiven_TakingMoreParameter_OfString_And_ReturnMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="inGivenThree_Float_FirstFloat_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.012"/>
+  <testcase name="inGiven_TakingMoreParameter_OfInteger_And_ReturnMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGivenThree_Integers_SecondInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGivenThree_String_SecondString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGivenThree_String_ThirdString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGivenThree_Float_SecondFloat_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
+  <testcase name="inGiven_TakingMoreParameter_OfString_And_ReturnMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
+  <testcase name="inGivenThree_String_FirstString_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGiven_TakingMoreParameter_OfFloat_And_ReturnMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGivenThree_Float_ThirdFloat_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.001"/>
+  <testcase name="inGivenThree_Integers_FirstInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
+  <testcase name="inGivenThree_Integers_ThirdInteger_IsMaximum" classname="com.Test.TestMaximumProblem" time="0.0"/>
+  <system-out><![CDATA[Max value is =2.2
+Max value is =96
+Max value is =18
+Max value is =Peach
+Max value is =Peach
+Max value is =8.9
+Max value is =Peach
+Max value is =Peach
+Max value is =9.6
+Max value is =9.5
+Max value is =22
+Max value is =12
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
